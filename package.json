@@ -1,0 +1,30 @@
+{
+  "name": "com.yahska.auth",
+  "version": "1.0.0",
+  "description": "Generic Auth Backend for the apps that I build.",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "ts-node server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "s.yahska@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/node": "^7.6.3",
+    "apollo-server": "^2.9.6",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^14.5.8",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-typescript": "^7.6.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
